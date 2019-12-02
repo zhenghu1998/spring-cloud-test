@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Test1Coneroller {
     @RequestMapping(value = "/hello")
     public String hello(@RequestParam String name){
-        return "hello"+name+"这是注册的hello服务2";
+        return "hello"+name+"这是注册的hello服务1";
     }
 }
